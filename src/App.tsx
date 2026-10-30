@@ -251,18 +251,32 @@ function App() {
                 <span className="text-muted">doing the work.</span>
               </h2>
             </div>
-            <article className="experience-card">
-              <div className="experience-meta">
-                <span>MAR 2025 — SEP 2025</span>
-                <span className="experience-marker" aria-hidden="true" />
-              </div>
-              <div className="experience-details">
-                <p className="experience-company">YUBI</p>
-                <h3>Software Developer Intern</h3>
-                <p>Software developer internship experience at Yubi.</p>
-              </div>
-              <ArrowUpRight className="experience-arrow" size={20} />
-            </article>
+            <div className="experience-list">
+              <article className="experience-card">
+                <div className="experience-meta">
+                  <span>NOV 2025 — PRESENT</span>
+                  <span className="experience-marker" aria-hidden="true" />
+                </div>
+                <div className="experience-details">
+                  <p className="experience-company">ZAKAPPS</p>
+                  <h3>Software Engineer</h3>
+                  <p>Building software as a Software Engineer at ZakApps.</p>
+                </div>
+                <ArrowUpRight className="experience-arrow" size={20} />
+              </article>
+              <article className="experience-card">
+                <div className="experience-meta">
+                  <span>MAR 2025 — SEP 2025</span>
+                  <span className="experience-marker" aria-hidden="true" />
+                </div>
+                <div className="experience-details">
+                  <p className="experience-company">YUBI</p>
+                  <h3>Software Developer Intern</h3>
+                  <p>Software developer internship experience at Yubi.</p>
+                </div>
+                <ArrowUpRight className="experience-arrow" size={20} />
+              </article>
+            </div>
           </div>
         </section>
 

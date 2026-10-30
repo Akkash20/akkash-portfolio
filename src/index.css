@@ -98,6 +98,7 @@ button { color: inherit; }
 
 .experience-section { padding: 108px 0; border-block: 1px solid var(--line); background: #151812; }
 .experience-grid { align-items: center; }
+.experience-list { display: grid; }
 .experience-card { position: relative; display: grid; grid-template-columns: 140px 1fr auto; gap: 25px; align-items: start; padding: 30px 0; border-top: 1px solid rgba(200, 243, 107, .38); border-bottom: 1px solid var(--line); }
 .experience-meta { display: flex; align-items: center; gap: 10px; padding-top: 5px; color: var(--subtle); font: 9px var(--mono); white-space: nowrap; }
 .experience-marker { width: 6px; height: 6px; flex: 0 0 auto; border-radius: 50%; background: var(--lime); }
